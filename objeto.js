@@ -3,7 +3,7 @@ const carro = {
   valor: 89000,
   proprietario: {
     nome: 'Alessandro',
-    idade: 51,
+    idade: 39,
     endereco: {
       logradouro: 'Rua ABC',
       numero: 444,
@@ -13,7 +13,7 @@ const carro = {
 
   condutores: [{
     nome: 'Alessandro',
-    idade: 51,
+    idade: 39,
   }, {
     nome: 'Bia',
     idade: 30,

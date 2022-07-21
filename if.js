@@ -17,3 +17,13 @@ const imprimirResultado = function(nota) {
 imprimirResultado(10);
 imprimirResultado(1);
 
+// Arrow function
+const imprimirResultado2 = (nota) => {
+  if(nota >= 7) {
+    console.log('Aprovado -> Arrow function');
+  }
+  else {
+    console.log('Reprovado -> Arrow function');
+  }
+}
+imprimirResultado2(1)

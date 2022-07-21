@@ -1,20 +1,3 @@
-//function criarFuncionario (nome, salarioBase, faltas) {
-//  return {
-//    nome,
-//    salarioBase,
-//    faltas,
-//    getSalario() {
-//      return (salarioBase / 30) * (30 - faltas);
-//    }
-//  };
-//};
-
-//const f1 = criarFuncionario('João', 2700, 1);
-//console.log(f1.getSalario());
-
-//const soma = (a, b) => (a + b);
-//console.log(`A soma de A e B é ${soma(4,4)}`);
-
 function horaTrabalhada(nome, salario) {
   return {
     nome,
@@ -23,4 +6,18 @@ function horaTrabalhada(nome, salario) {
   }
 }
 const f1 = horaTrabalhada('Alessandro', 2700);
-console.log(`Hora Trabalhada: ${f1.getSalario1().toFixed(2)}`);
+console.log(`Horas Trabalhadas: ${f1.getSalario1().toFixed(2)}`);
+
+// Arrow Function
+
+const horastrabalhadas = (nome, salario) => {
+  return {
+  nome, 
+  salario,
+  getSalario2() 
+    { return (salario / 220) }
+  }
+}
+
+const f2 = horastrabalhadas('Alessandro', 3200);
+console.log(`Nome: ${f2.nome}\nSalário - dia: R$ ${f2.getSalario2().toFixed(2)}`)

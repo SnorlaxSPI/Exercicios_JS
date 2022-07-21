@@ -13,15 +13,3 @@ function multiplicadorPorDois(valor)
 }
 
 console.log(multiplicadorPorDois(4))
-
-//function dizernome() {
-//  console.log("ola");
-//}
-//
-//dizernome();
-//
-//function dizerNome(a,b) {
-//  return c = a + b;
-//}
-//console.log(dizerNome(5,5));
-

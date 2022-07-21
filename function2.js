@@ -13,9 +13,9 @@ function soma2(c, d) {
 }
 console.log("A soma de soma2 é: " + soma2(32,34));
 
+// arrow function 
 const soma3 = (e , f) => (e + f)
 console.log(soma3(2,2));
-
 
 const soma4 = {
   nome: "Alessandro",
